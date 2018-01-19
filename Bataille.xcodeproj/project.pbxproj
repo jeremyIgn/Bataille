@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A5EB9BA2011D0B3007C980B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EB9B92011D0B3007C980B /* main.swift */; };
+		3A5EB9C12011D403007C980B /* Bateau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EB9C02011D403007C980B /* Bateau.swift */; };
+		3A5EB9C32011D45B007C980B /* CarteOcéan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EB9C22011D45B007C980B /* CarteOcéan.swift */; };
+		3A5EB9C72011DDAE007C980B /* CaseBattaille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5EB9C62011DDAE007C980B /* CaseBattaille.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3A5EB9B62011D0B3007C980B /* Bataille */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bataille; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5EB9B92011D0B3007C980B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3A5EB9C02011D403007C980B /* Bateau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bateau.swift; sourceTree = "<group>"; };
+		3A5EB9C22011D45B007C980B /* CarteOcéan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarteOcéan.swift"; sourceTree = "<group>"; };
+		3A5EB9C62011DDAE007C980B /* CaseBattaille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseBattaille.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3A5EB9B92011D0B3007C980B /* main.swift */,
+				3A5EB9C02011D403007C980B /* Bateau.swift */,
+				3A5EB9C22011D45B007C980B /* CarteOcéan.swift */,
+				3A5EB9C62011DDAE007C980B /* CaseBattaille.swift */,
 			);
 			path = Bataille;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5EB9C72011DDAE007C980B /* CaseBattaille.swift in Sources */,
 				3A5EB9BA2011D0B3007C980B /* main.swift in Sources */,
+				3A5EB9C32011D45B007C980B /* CarteOcéan.swift in Sources */,
+				3A5EB9C12011D403007C980B /* Bateau.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
